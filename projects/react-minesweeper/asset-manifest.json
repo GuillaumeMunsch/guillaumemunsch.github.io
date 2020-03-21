@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/projects/react-minesweeper/static/css/main.2a3d4cce.chunk.css",
+    "main.js": "/projects/react-minesweeper/static/js/main.c735cb31.chunk.js",
+    "main.js.map": "/projects/react-minesweeper/static/js/main.c735cb31.chunk.js.map",
+    "runtime-main.js": "/projects/react-minesweeper/static/js/runtime-main.1ddd97e2.js",
+    "runtime-main.js.map": "/projects/react-minesweeper/static/js/runtime-main.1ddd97e2.js.map",
+    "static/js/2.ac11635c.chunk.js": "/projects/react-minesweeper/static/js/2.ac11635c.chunk.js",
+    "static/js/2.ac11635c.chunk.js.map": "/projects/react-minesweeper/static/js/2.ac11635c.chunk.js.map",
+    "index.html": "/projects/react-minesweeper/index.html",
+    "precache-manifest.19ceaa082bf7ae6ff46ac75d2dc2845e.js": "/projects/react-minesweeper/precache-manifest.19ceaa082bf7ae6ff46ac75d2dc2845e.js",
+    "service-worker.js": "/projects/react-minesweeper/service-worker.js",
+    "static/css/main.2a3d4cce.chunk.css.map": "/projects/react-minesweeper/static/css/main.2a3d4cce.chunk.css.map",
+    "static/js/2.ac11635c.chunk.js.LICENSE.txt": "/projects/react-minesweeper/static/js/2.ac11635c.chunk.js.LICENSE.txt",
+    "static/media/bomb.svg": "/projects/react-minesweeper/static/media/bomb.65450681.svg",
+    "static/media/flag.svg": "/projects/react-minesweeper/static/media/flag.35d811aa.svg",
+    "static/media/sad.svg": "/projects/react-minesweeper/static/media/sad.7b49a330.svg",
+    "static/media/smile.svg": "/projects/react-minesweeper/static/media/smile.73d502ef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ddd97e2.js",
+    "static/js/2.ac11635c.chunk.js",
+    "static/css/main.2a3d4cce.chunk.css",
+    "static/js/main.c735cb31.chunk.js"
+  ]
+}
