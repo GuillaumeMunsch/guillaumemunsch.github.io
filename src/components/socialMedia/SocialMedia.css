@@ -57,6 +57,16 @@
   box-shadow: 0 5px 15px #ea4335;
 }
 
+.google i {
+  background-color: #ea4335;
+  transition: all 0.2s ease-in-out;
+}
+
+.google i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #ea4335;
+}
+
 .twitter i {
   background-color: #1da1f2;
   transition: all 0.2s ease-in-out;
@@ -75,6 +85,25 @@
 .instagram i:hover {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px #e4405f;
+}
+
+.stack-overflow i {
+  background-color: #f48224;
+  transition: all 0.2s ease-in-out;
+}
+
+.stack-overflow i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #f48224;
+}
+.spotify i {
+  background-color: #1db954;
+  transition: all 0.2s ease-in-out;
+}
+
+.spotify i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #1db954;
 }
 
 /* Media Query */

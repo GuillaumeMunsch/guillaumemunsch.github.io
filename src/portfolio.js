@@ -2,34 +2,34 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  isSplash: true, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+  //   googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
-  title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
-  resumeLink:
-    "https://drive.google.com/file/d/1IQge4pNhyj-RD2OOnEMrRPMODDUWeVDy/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  title: "Hello :)",
+  title2: "Guillaume",
+  logo_name: "guillaume",
+  nickname: "GuillaumeMunsch",
+  full_name: "Guillaume Munsch",
+  subTitle: "Full Stack Developer, JavaScript Enthusiast and music lover.",
+  resumeLink: "https://guillaumemunsch.github.io/assets/docs/CV.pdf",
+  mail: "mailto:munschperso@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
-  gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  github: "https://github.com/GuillaumeMunsch",
+  linkedin: "https://www.linkedin.com/in/guillaume-munsch-a014486b/",
+  gmail: "munschperso@gmail.com",
+  gitlab: "",
+  facebook: "",
+  twitter: "",
+  instagram: "",
+  stackoverflow: "https://stackoverflow.com/users/3683576/guillaume-munsch",
+  spotify: "https://open.spotify.com/user/1116865568",
 };
 
 const skills = {
@@ -39,8 +39,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing mobile applications using React Native",
+        "⚡ Using Firebase's tools to build serverless backends",
       ],
       softwareSkills: [
         {
@@ -66,60 +66,10 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
+            color: "#FFCA28",
           },
         },
         {
@@ -130,12 +80,31 @@ const skills = {
           },
         },
         {
-          skillName: "NextJS",
-          fontAwesomeClassname: "simple-icons:nextdotjs",
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
           style: {
-            color: "#FFFFFF",
-            backgroundColor: "#1D1D1D",
-            borderRadius: "50%",
+            color: "#764ABC",
+          },
+        },
+        {
+          skillName: "Redux Saga",
+          fontAwesomeClassname: "simple-icons:reduxsaga",
+          style: {
+            color: "#999999",
+          },
+        },
+        {
+          skillName: "React Router",
+          fontAwesomeClassname: "simple-icons:reactrouter",
+          style: {
+            color: "#CA4245",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
           },
         },
         {
@@ -146,49 +115,19 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Stripe",
+          fontAwesomeClassname: "simple-icons:stripe",
           style: {
-            color: "#439743",
+            color: "#008CDD",
           },
         },
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
-            color: "#DE33A6",
+            color: "#7952B3",
           },
         },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -199,113 +138,52 @@ const skills = {
       ],
     },
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Part time teacher",
+      fileName: "TeacherImg",
       skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
+        "⚡ React Native Development teacher for 4th year students @ EPITECH",
+        // "⚡ Certifications by deeplearning.ai and Stanford Online",
+        // "⚡ Experience with 10+ Projects",
       ],
       softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
+        // {
+        //   skillName: "Tensorflow",
+        //   fontAwesomeClassname: "logos-tensorflow",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "Keras",
+        //   fontAwesomeClassname: "simple-icons:keras",
+        //   style: {
+        //     backgroundColor: "white",
+        //     color: "#D00000",
+        //   },
+        // },
+        // {
+        //   skillName: "PyTorch",
+        //   fontAwesomeClassname: "logos-pytorch",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //   },
+        // },
+        // {
+        //   skillName: "Python",
+        //   fontAwesomeClassname: "ion-logo-python",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#3776AB",
+        //   },
+        // },
+        // {
+        //   skillName: "Pandas",
+        //   fontAwesomeClassname: "simple-icons:pandas",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#6E6E6E",
+        //   },
+        // },
       ],
     },
   ],
