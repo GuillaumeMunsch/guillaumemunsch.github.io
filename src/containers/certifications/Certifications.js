@@ -6,6 +6,11 @@ import CertificationCard from "../../components/certificationCard/CertificationC
 
 function Certifications(props) {
   const theme = props.theme;
+  if (
+    !certifications.certifications ||
+    certifications.certifications?.length === 0
+  )
+    return null;
   return (
     <div className="main" id="certs">
       <div className="certs-header-div">

@@ -192,134 +192,134 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
-      duration: "2017 - Present",
+      title: "Graduate Diploma in Information Technology",
+      subtitle: "Epitech",
+      logo_path: "epitechLogo.png",
+      alt_name: "EPITECH",
+      duration: "2012 - 2017",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Data Structures, multiple paradigms, databases, networking, etc.",
+        "⚡ I studied specific topics like Web Development, Mobile App Development, etc.",
+        "⚡ I did this while learning / using of several languages like C, C++, JavaScript, Java, etc.",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "https://www.epitech.eu/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
-      alt_name: "deeplearning.ai",
-      color_code: "#47A048",
-    },
-    {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
-      alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
-      color_code: "#C5E2EE",
-    },
-    {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
-    },
-    {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
-    },
-    {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
-    },
-    {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
-    },
+    // {
+    //   title: "Deep Learning Specialization",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#47A048",
+    // },
+    // {
+    //   title: "Sequence Models",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#F6B808",
+    // },
+    // {
+    //   title: "Convolutional Neural Networks",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Structuring Machine Learning Projects",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#E2405F",
+    // },
+    // {
+    //   title: "Machine Learning",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "stanford_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
+    //   alt_name: "Stanford University",
+    //   color_code: "#8C151599",
+    // },
+    // {
+    //   title: "Neural Networks and Deep Learning",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
+    //   alt_name: "Google",
+    //   color_code: "#7A7A7A",
+    // },
+    // {
+    //   title: "Improving Deep Neural Networks",
+    //   subtitle: "deeplearning.ai",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "Android Developer Nanodegree",
+    //   subtitle: "Part of Google India Scholarship Program",
+    //   logo_path: "100.png",
+    //   certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
+    //   alt_name: "Google",
+    //   color_code: "#C5E2EE",
+    // },
+    // {
+    //   title: "Google Summer of Code 2019",
+    //   subtitle: "Google / Sugar Labs",
+    //   logo_path: "google_logo.png",
+    //   certificate_link: " ",
+    //   alt_name: "Google",
+    //   color_code: "#ffc475",
+    // },
+    // {
+    //   title: "Google Code-In Student",
+    //   subtitle: "2014-2017",
+    //   logo_path: "google_logo.png",
+    //   certificate_link: " ",
+    //   alt_name: "Google",
+    //   color_code: "#1e70c1",
+    // },
+    // {
+    //   title: "Google Summer of Code Mentor",
+    //   subtitle: "2017 / 2018 / 2020",
+    //   logo_path: "google_logo.png",
+    //   certificate_link: " ",
+    //   alt_name: "Google",
+    //   color_code: "#ffbfae",
+    // },
+    // {
+    //   title: "InOut 4.0 Winner #2",
+    //   subtitle: "2017",
+    //   logo_path: "ino.png",
+    //   certificate_link: " ",
+    //   alt_name: "InOut",
+    //   color_code: "#fffbf3",
+    // },
+    // {
+    //   title: "Google Code-In Mentor",
+    //   subtitle: "2017 / 2018 / 2019",
+    //   logo_path: "google_logo.png",
+    //   certificate_link: " ",
+    //   alt_name: "Google",
+    //   color_code: "#b190b0",
+    // },
   ],
 };
 
@@ -457,9 +457,9 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "me.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "You can contact me at the places mentioned below. I'll get back to you asap! :)",
   },
   blogSection: {
     title: "Blogs",
