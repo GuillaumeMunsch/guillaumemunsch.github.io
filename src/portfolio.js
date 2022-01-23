@@ -15,7 +15,7 @@ const greeting = {
   nickname: "GuillaumeMunsch",
   full_name: "Guillaume Munsch",
   subTitle: "Full Stack Developer, JavaScript Enthusiast and music lover.",
-  resumeLink: "https://guillaumemunsch.github.io/assets/docs/CV.pdf",
+  resumeLink: "https://guillaumemunsch.github.io/public/CV.pdf",
   mail: "mailto:munschperso@gmail.com",
 };
 
@@ -447,13 +447,13 @@ const contactPageData = {
     description:
       "You can contact me at the places mentioned below. I'll get back to you asap! :)",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
-    avatar_image_path: "blogs_image.svg",
-  },
+  //   blogSection: {
+  //     title: "Blogs",
+  //     subtitle:
+  //       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
+  //     link: "https://medium.com/@hrishipatel99",
+  //     avatar_image_path: "blogs_image.svg",
+  //   },
 };
 
 const projects = {
