@@ -435,7 +435,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "A non exhaustive list of projects I did / worked on during either my jobs or my free time :)",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -460,276 +460,179 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "opPortfolio",
-      url: "https://github.com/Hrishi1999/opPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
+      name: "CheckQ",
+      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      description:
+        "CheckQ's full product. One mobile application available on both stores, two frontends (one for the businesses and one for the admin panel) and one serverless backend done with Firebase (Firestore, Realtime, Cloud Functions, Hosting, Storage, ...)",
       languages: [
         {
           name: "ReactJS",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "React Native",
+          iconifyClass: "teenyicons:react-outline",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos:firebase",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "logos:stripe",
+        },
+      ],
+      buttons: [
+        {
+          label: "View",
+          link: "http://checkq.me/",
         },
       ],
     },
     {
       id: "1",
-      name: "Cab Security System",
-      url: " ",
+      name: "Squareboard",
+      url: "https://www.squareboard.com/",
       description:
-        "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
+        "« Squareboard »'s mobile application. Squareboard is a digital workplace for companies.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "ReactJS",
+          iconifyClass: "logos:react",
         },
         {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
+          name: "React Native",
+          iconifyClass: "teenyicons:react-outline",
         },
         {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+      ],
+      buttons: [
+        {
+          label: "View",
+          link: "https://www.squareboard.com/",
         },
       ],
     },
     {
       id: "2",
-      name: "Lensinator",
-      url: " ",
+      name: "My Portfolio",
+      url: "https://github.com/GuillaumeMunsch/guillaumemunsch.github.io",
       description:
-        "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
+        "My portfolio. Forked from Hrishi1999's opensource portfolio.",
       languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Doorbell.io",
-      url: "https://github.com/Hrishi1999/Doorbell.io",
-      description:
-        "A sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
         {
           name: "ReactJS",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos:react",
         },
         {
-          name: "TensorflowJS",
-          iconifyClass: "logos-tensorflow",
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
         },
       ],
-    },
-    {
-      id: "13",
-      name: "Video Summarization (WIP)",
-      url: "https://github.com/Hrishi1999/Video-Summarization",
-      description:
-        "A video summarization webapp. A Flask-based backend which servers the Tensorflow model and a frontend made in ReactJS.",
-      languages: [
+      buttons: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/guillaumemunsch.github.io",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
+          label: "Forked from",
+          link: "https://github.com/Hrishi1999/opPortfolio",
         },
       ],
     },
     {
       id: "3",
-      name: "Dashboard Activity",
-      url: "https://github.com/Hrishi1999/Dashboard.activity",
-      description:
-        "Google Summer of Code project. A Dashboard activity for Sugar OS which tracks user activity so user can know where they use their most time and where they create most files.",
+      name: "React Minesweeper",
+      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      description: "The famous Minesweeper game made for fun.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/react-minesweeper",
+        },
+        {
+          label: "Try it out",
+          link:
+            "https://guillaumemunsch.github.io/projects/react-minesweeper/index.html",
         },
       ],
     },
     {
       id: "4",
-      name: "Project Pickle",
-      url: " ",
-      description:
-        "An app similar to Uber Eats but targeted for Gruhudhyogs (homemade pickles and products). Order management, live order tracking, rating and reviews system, etc.",
+      name: "React Game of Life",
+      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      description: "Conway's game of life made for fun.",
       languages: [
-        {
-          name: "Java",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "Project Health Card",
-      url: "",
-      description:
-        "An aadhard-card like utility card which keeps track of all your health records suchs as: Medicines, Lab Reports, Recent Diseases, Allergies, etc.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-java",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
         {
           name: "ReactJS",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos:react",
         },
         {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/react-game-of-life",
+        },
+        {
+          label: "Try it out",
+          link:
+            "https://guillaumemunsch.github.io/projects/react-game-of-life/index.html",
         },
       ],
     },
     {
       id: "6",
-      name: "Food Classifier",
-      url: " ",
+      name: "Hacker News",
+      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
       description:
-        "A food classifier app using tflite which classfier over 50 Indian Dishes.",
+        "A classical Hacker News Reader mobile app for both iOS and Android. Made to try Expo and NativeBase",
       languages: [
         {
-          name: "Flutter",
-          iconifyClass: "logos-flutter",
+          name: "ReactJS",
+          iconifyClass: "logos:react",
         },
         {
-          name: "Dart",
-          iconifyClass: "logos-dart",
+          name: "React Native",
+          iconifyClass: "teenyicons:react-outline",
         },
         {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          name: "Expo",
+          iconifyClass: "logos:expo",
         },
       ],
-    },
-    {
-      id: "7",
-      name: "Image Clustering",
-      url: " ",
-      description:
-        "A simple use of K-Means Clustering algorithm to sort images by automatically predicting number of classes. This can be used to clean an image dataset.",
-      languages: [
+      buttons: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Antivirus",
-      url: " ",
-      description:
-        "A project from 2012. Made an antivirus with realtime scanning. Implemented by using comparison of md5 hashes.",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Sugar on Windows",
-      url: " ",
-      description:
-        "Run and setup Sugar OS to be able to run on Windows using Windows Subsystem for Linux",
-      languages: [
-        {
-          name: "Visual Basic",
-          iconifyClass: "logos-dotnet",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Object + Face Detection",
-      url: " ",
-      description: "2017 project. Object detection + accurate face detection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Image Captioning with Visual Attention",
-      url: " ",
-      description: "Ongoing. Used MSCOCO 2014/2017 for image captioning.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Tensorflow",
-          iconifyClass: "logos-tensorflow",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/my-hacker-news",
         },
       ],
     },

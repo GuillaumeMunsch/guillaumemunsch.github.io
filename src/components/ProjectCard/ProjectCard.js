@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
+import ProjectButtons from "../projectButtons/ProjectButtons";
 import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
@@ -44,6 +45,7 @@ export default function ProjectCard({ repo, theme }) {
           <div className="repo-details">
             <ProjectLanguages logos={repo.languages} />
           </div>
+          <ProjectButtons theme={theme} buttons={repo.buttons} />
         </div>
       </Fade>
     </div>
