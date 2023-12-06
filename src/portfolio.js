@@ -1,3 +1,4 @@
+import React from "react";
 /* Change this file to get your personal Porfolio */
 
 // Website related settings
@@ -467,13 +468,279 @@ const contactPageData = {
   //   },
 };
 
+const DoneWithMathieu = ({ theme }) => (
+  <div>
+    Done with{" "}
+    <a
+      style={{ color: theme.link }}
+      target="_blank"
+      href="https://github.com/mathieueveillard"
+      rel="noreferrer"
+    >
+      Mathieu Eveillard
+    </a>
+  </div>
+);
+
 const projects = {
   data: [
     {
-      id: "0",
+      name: "Redux Basis",
+      url: "https://github.com/GuillaumeMunsch/redux-basis",
+      description: ({ theme }) => (
+        <>
+          A very simple and light test of the implementation of redux.
+          <DoneWithMathieu theme={theme} />
+        </>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/react-game-of-life",
+        },
+      ],
+    },
+    {
+      name: "Game of Life",
+      url: "https://github.com/GuillaumeMunsch/js-kata-game-of-life",
+      description: ({ theme }) => (
+        <>
+          Clean implementation of Conway's game of life.
+          <DoneWithMathieu theme={theme} />
+        </>
+      ),
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-kata-game-of-life",
+        },
+      ],
+    },
+    {
+      name: "Snail",
+      url: "https://github.com/GuillaumeMunsch/snail",
+      description: ({ theme }) => (
+        <div>
+          A{" "}
+          <a
+            style={{ color: theme.link }}
+            target="_blank"
+            href="https://github.com/mathieueveillard/snail"
+            rel="noreferrer"
+          >
+            snail kata
+          </a>
+          .<DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/snail",
+        },
+      ],
+    },
+    {
+      name: "Pyramid Slide Down",
+      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      description: ({ theme }) => (
+        <div>
+          The{" "}
+          <a
+            style={{ color: theme.link }}
+            href="https://github.com/GuillaumeMunsch/js-pyramid-slide-down"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Pyramid Slide Down
+          </a>{" "}
+          kata.{" "}
+          <a
+            style={{ color: theme.link }}
+            href="https://velog.io/@gtfo/Pyramid-Slide-Down"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Subject
+          </a>
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-pyramid-slide-down",
+        },
+      ],
+    },
+    {
+      name: "Jest",
+      url: "https://github.com/GuillaumeMunsch/my-jest",
+      description: ({ theme }) => (
+        <div>
+          A homemade simplistic implementation of Jest.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/my-jest",
+        },
+      ],
+    },
+    {
+      name: "Property Base Testing",
+      url: "https://github.com/GuillaumeMunsch/min-max-pbt",
+      description: ({ theme }) => (
+        <div>
+          A kata to try out property base testing.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/min-max-pbt",
+        },
+      ],
+    },
+    {
+      name: "RPN (Reverse Polish Notation)",
+      url: "https://github.com/GuillaumeMunsch/js-kata-rpn",
+      description: ({ theme }) => (
+        <div>
+          A kata implementing an RPN.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-kata-rpn",
+        },
+      ],
+    },
+    {
+      name: "ATM",
+      url: "https://github.com/GuillaumeMunsch/js-kata-atm",
+      description: ({ theme }) => (
+        <div>
+          A kata simulating an ATM.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-kata-atm",
+        },
+      ],
+    },
+    {
+      name: "Diamond",
+      url: "https://github.com/GuillaumeMunsch/js-kata-diamond",
+      description: ({ theme }) => (
+        <div>
+          A kata drawing a diamond shape.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-kata-diamond",
+        },
+      ],
+    },
+    {
+      name: "Coffee Machine",
+      url: "https://github.com/GuillaumeMunsch/js-kata-coffee-machine",
+      description: ({ theme }) => (
+        <div>
+          A kata simulating a coffee machine.
+          <DoneWithMathieu theme={theme} />
+        </div>
+      ),
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/js-kata-coffee-machine",
+        },
+      ],
+    },
+    {
       name: "CheckQ",
       url: "https://github.com/GuillaumeMunsch/react-minesweeper",
-      description:
+      description: ({ theme }) =>
         "CheckQ's full product. One mobile application available on both stores, two frontends (one for the businesses and one for the admin panel) and one serverless backend done with Firebase (Firestore, Realtime, Cloud Functions, Hosting, Storage, ...)",
       languages: [
         {
@@ -513,10 +780,9 @@ const projects = {
       ],
     },
     {
-      id: "1",
       name: "Squareboard",
       url: "https://www.squareboard.com/",
-      description:
+      description: ({ theme }) =>
         "« Squareboard »'s mobile application. Squareboard is a digital workplace for companies.",
       languages: [
         {
@@ -540,10 +806,9 @@ const projects = {
       ],
     },
     {
-      id: "2",
       name: "My Portfolio",
       url: "https://github.com/GuillaumeMunsch/guillaumemunsch.github.io",
-      description:
+      description: ({ theme }) =>
         "My portfolio. Forked from Hrishi1999's opensource portfolio.",
       languages: [
         {
@@ -567,10 +832,9 @@ const projects = {
       ],
     },
     {
-      id: "3",
       name: "React Minesweeper",
       url: "https://github.com/GuillaumeMunsch/react-minesweeper",
-      description: "The famous Minesweeper game made for fun.",
+      description: ({ theme }) => "The famous Minesweeper game made for fun.",
       languages: [
         {
           name: "ReactJS",
@@ -586,18 +850,19 @@ const projects = {
           label: "View code",
           link: "https://github.com/GuillaumeMunsch/react-minesweeper",
         },
-        {
-          label: "Try it out",
-          link:
-            "https://guillaumemunsch.github.io/projects/react-minesweeper/index.html",
-        },
+        // {
+        //   label: "Try it out",
+        //   link:
+        //     "https://guillaumemunsch.github.io/projects/react-minesweeper/index.html",
+        // },
       ],
     },
     {
-      id: "4",
       name: "React Game of Life",
       url: "https://github.com/GuillaumeMunsch/react-minesweeper",
-      description: "Conway's game of life made for fun.",
+      description: ({ theme }) => (
+        <div>"Conway's game of life made for fun."</div>
+      ),
       languages: [
         {
           name: "ReactJS",
@@ -613,18 +878,17 @@ const projects = {
           label: "View code",
           link: "https://github.com/GuillaumeMunsch/react-game-of-life",
         },
-        {
-          label: "Try it out",
-          link:
-            "https://guillaumemunsch.github.io/projects/react-game-of-life/index.html",
-        },
+        // {
+        //   label: "Try it out",
+        //   link:
+        //     "https://guillaumemunsch.github.io/projects/react-game-of-life/index.html",
+        // },
       ],
     },
     {
-      id: "6",
       name: "Hacker News",
       url: "https://github.com/GuillaumeMunsch/react-minesweeper",
-      description:
+      description: ({ theme }) =>
         "A classical Hacker News Reader mobile app for both iOS and Android. Made to try Expo and NativeBase",
       languages: [
         {

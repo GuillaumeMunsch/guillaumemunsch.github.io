@@ -25,14 +25,15 @@ export default function ProjectCard({ repo, theme }) {
     },
   });
 
+  const Description = repo.description;
+
   return (
     <div>
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
-          key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.projectCard }}
+          // onClick={() => openRepoinNewTab(repo.url)}
+          style={{ backgroundColor: theme.projectCard, cursor: "initial" }}
         >
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
@@ -40,7 +41,7 @@ export default function ProjectCard({ repo, theme }) {
             </p>
           </div>
           <p className="repo-description" style={{ color: theme.text }}>
-            {repo.description}
+            <Description theme={theme} />
           </p>
           <div className="repo-details">
             <ProjectLanguages logos={repo.languages} />
