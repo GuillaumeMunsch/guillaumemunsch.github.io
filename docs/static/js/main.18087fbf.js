@@ -1,4 +1,4 @@
-/*! For license information please see main.e3ff5970.js.LICENSE.txt */
+/*! For license information please see main.18087fbf.js.LICENSE.txt */
 (() => {
   var e = {
       2555: (e, t) => {
@@ -20218,7 +20218,7 @@
               buttons: [
                 {
                   label: "View code",
-                  link: "https://github.com/GuillaumeMunsch/react-game-of-life",
+                  link: "https://github.com/GuillaumeMunsch/redux-basis",
                 },
               ],
             },
@@ -20279,7 +20279,7 @@
             },
             {
               name: "Pyramid Slide Down",
-              url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+              url: "https://github.com/GuillaumeMunsch/js-pyramid-slide-down",
               description: (e) => {
                 let { theme: t } = e;
                 return (0, ka.jsxs)("div", {
@@ -20288,22 +20288,13 @@
                     " ",
                     (0, ka.jsx)("a", {
                       style: { color: t.link },
-                      href:
-                        "https://github.com/GuillaumeMunsch/js-pyramid-slide-down",
+                      href: "https://velog.io/@gtfo/Pyramid-Slide-Down",
                       target: "_blank",
                       rel: "noreferrer",
                       children: "Pyramid Slide Down",
                     }),
                     " ",
                     "kata.",
-                    " ",
-                    (0, ka.jsx)("a", {
-                      style: { color: t.link },
-                      href: "https://velog.io/@gtfo/Pyramid-Slide-Down",
-                      target: "_blank",
-                      rel: "noreferrer",
-                      children: "Subject",
-                    }),
                     (0, ka.jsx)(Ma, { theme: t }),
                   ],
                 });
@@ -20370,7 +20361,16 @@
                 let { theme: t } = e;
                 return (0, ka.jsxs)("div", {
                   children: [
-                    "A kata implementing an RPN.",
+                    "A kata implementing an",
+                    " ",
+                    (0, ka.jsx)("a", {
+                      href: "https://en.wikipedia.org/wiki/RPN",
+                      target: "_blank",
+                      style: { color: t.link },
+                      rel: "noreferrer",
+                      children: "RPN",
+                    }),
+                    ".",
                     (0, ka.jsx)(Ma, { theme: t }),
                   ],
                 });
@@ -20455,7 +20455,6 @@
             },
             {
               name: "CheckQ",
-              url: "https://github.com/GuillaumeMunsch/react-minesweeper",
               description: (e) => {
                 let { theme: t } = e;
                 return "CheckQ's full product. One mobile application available on both stores, two frontends (one for the businesses and one for the admin panel) and one serverless backend done with Firebase (Firestore, Realtime, Cloud Functions, Hosting, Storage, ...)";
@@ -20472,7 +20471,6 @@
                 { name: "Bootstrap", iconifyClass: "logos:bootstrap" },
                 { name: "Stripe", iconifyClass: "logos:stripe" },
               ],
-              buttons: [{ label: "View", link: "http://checkq.me/" }],
             },
             {
               name: "Squareboard",
@@ -29775,4 +29773,4 @@
           });
     })();
 })();
-//# sourceMappingURL=main.e3ff5970.js.map
+//# sourceMappingURL=main.18087fbf.js.map

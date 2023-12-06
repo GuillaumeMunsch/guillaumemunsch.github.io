@@ -502,7 +502,7 @@ const projects = {
       buttons: [
         {
           label: "View code",
-          link: "https://github.com/GuillaumeMunsch/react-game-of-life",
+          link: "https://github.com/GuillaumeMunsch/redux-basis",
         },
       ],
     },
@@ -564,27 +564,19 @@ const projects = {
     },
     {
       name: "Pyramid Slide Down",
-      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      url: "https://github.com/GuillaumeMunsch/js-pyramid-slide-down",
       description: ({ theme }) => (
         <div>
           The{" "}
           <a
             style={{ color: theme.link }}
-            href="https://github.com/GuillaumeMunsch/js-pyramid-slide-down"
+            href="https://velog.io/@gtfo/Pyramid-Slide-Down"
             target="_blank"
             rel="noreferrer"
           >
             Pyramid Slide Down
           </a>{" "}
-          kata.{" "}
-          <a
-            style={{ color: theme.link }}
-            href="https://velog.io/@gtfo/Pyramid-Slide-Down"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            Subject
-          </a>
+          kata.
           <DoneWithMathieu theme={theme} />
         </div>
       ),
@@ -650,7 +642,16 @@ const projects = {
       url: "https://github.com/GuillaumeMunsch/js-kata-rpn",
       description: ({ theme }) => (
         <div>
-          A kata implementing an RPN.
+          A kata implementing an{" "}
+          <a
+            href="https://en.wikipedia.org/wiki/RPN"
+            target="_blank"
+            style={{ color: theme.link }}
+            rel="noreferrer"
+          >
+            RPN
+          </a>
+          .
           <DoneWithMathieu theme={theme} />
         </div>
       ),
@@ -739,7 +740,6 @@ const projects = {
     },
     {
       name: "CheckQ",
-      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
       description: ({ theme }) =>
         "CheckQ's full product. One mobile application available on both stores, two frontends (one for the businesses and one for the admin panel) and one serverless backend done with Firebase (Firestore, Realtime, Cloud Functions, Hosting, Storage, ...)",
       languages: [
@@ -770,12 +770,6 @@ const projects = {
         {
           name: "Stripe",
           iconifyClass: "logos:stripe",
-        },
-      ],
-      buttons: [
-        {
-          label: "View",
-          link: "http://checkq.me/",
         },
       ],
     },
