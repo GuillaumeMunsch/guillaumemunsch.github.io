@@ -359,11 +359,11 @@ const experience = {
           title: "Software Engineer",
           company: "Ovrsea",
           company_url: "https://www.ovrsea.com/",
-          logo_path: "shawbeLogo.png",
+          logo_path: "ovrseaLogo.png",
           duration: "May 2022 - Current",
           location: "Full remote for Paris",
           description:
-            "Creation of a fully functional and production ready SaaS called CheckQ with a serverless backend (Firebase), a mobile app (In React Native, « CheckQ » on the stores) and two frontends, one for the businesses subscribing to the product and one administration panel (both done in React)",
+            "Development of several features (dashboards, emails customizations, forms, automation, …) for 2 internal tools with React, React Hook Form, Typescript, NodeJS, and GraphQL. I also worked on an internal design system based on Emotion. Applying principles like Test Driven Development and Domain Driven Design for code reliability and maintainability.",
           color: "#2962FF",
         },
         {
