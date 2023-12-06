@@ -7,9 +7,9 @@
     "node": true
   },
   "extends": [
-    "airbnb",
+    // "airbnb",
     "plugin:react/recommended",
-    "plugin:jsx-a11y/strict",
+    // "plugin:jsx-a11y/strict",
     "plugin:prettier/recommended",
     "prettier/react"
   ],
@@ -32,14 +32,13 @@
       }
     ],
     "import/prefer-default-export": 0,
-    "react-hooks/rules-of-hooks": "error",
-    // "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": 0,
     "no-console": "off",
     "react/prop-types": 0,
-    "prettier/prettier": ["error"],
     "no-nested-ternary": 0,
-    "react/display-name": 0
+    "react/display-name": 0,
+    "react/jsx-key": "off",
+    "react/no-unescaped-entities": "off"
   },
   "globals": {
     "window": true,

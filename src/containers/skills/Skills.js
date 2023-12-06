@@ -1,10 +1,10 @@
 import React from "react";
 import "./Skills.css";
-import SkillSection from "./SkillSection";
 import { Fade } from "react-reveal";
+import SkillSection from "./SkillSection";
 
 export default function Skills(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <div className="main" id="skills">
       <div className="skills-header-div">

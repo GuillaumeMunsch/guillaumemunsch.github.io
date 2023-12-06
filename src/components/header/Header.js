@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
+import { greeting, settings } from "../../portfolio.js";
 
 function Header(props) {
-  const theme = props.theme;
+  const { theme } = props;
 
   const styles = style({
     cursor: "pointer",
@@ -67,15 +67,15 @@ function Header(props) {
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
+            <span style={{ color: theme.text }} />
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
-            <span style={{ color: theme.text }}></span>
+            <span style={{ color: theme.text }} />
           </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
+            <span className="navicon" />
           </label>
           <ul className="menu">
             <li>

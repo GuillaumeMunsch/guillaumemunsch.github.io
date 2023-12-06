@@ -2,7 +2,7 @@ import React from "react";
 import "./FeelingProud.css";
 
 function FeelingProud(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <svg
       version="1.1"

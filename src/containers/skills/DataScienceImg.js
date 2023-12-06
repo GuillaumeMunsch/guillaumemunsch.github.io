@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function DataScienceImg(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <svg
       id="fa973782-3a18-4630-a762-87130b613ac3"
@@ -11,7 +11,7 @@ export default function DataScienceImg(props) {
       height="100%"
       viewBox="0 0 1120 829.80067"
     >
-      <title></title>
+      <title />
       <ellipse
         cx="975.57906"
         cy="811.05902"

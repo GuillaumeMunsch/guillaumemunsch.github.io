@@ -11,9 +11,9 @@ const ProjectLanguages = (props) => (
           return (
             <OverlayTrigger
               key={logo.name}
-              placement={"top"}
+              placement="top"
               overlay={
-                <Tooltip id={`tooltip-top`}>
+                <Tooltip id="tooltip-top">
                   <strong>{logo.name}</strong>
                 </Tooltip>
               }
@@ -26,7 +26,7 @@ const ProjectLanguages = (props) => (
                   className="iconify"
                   data-icon={logo.iconifyClass}
                   data-inline="false"
-                ></span>
+                />
               </li>
             </OverlayTrigger>
           );

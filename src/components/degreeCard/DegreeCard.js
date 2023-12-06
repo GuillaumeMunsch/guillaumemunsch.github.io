@@ -4,9 +4,9 @@ import { Fade, Flip } from "react-reveal";
 import { style } from "glamor";
 
 function DegreeCard(props) {
-  const degree = props.degree;
-  const theme = props.theme;
-  const index = props.index;
+  const { degree } = props;
+  const { theme } = props;
+  const { index } = props;
 
   const imgLeft = index % 2 === 0;
 
@@ -112,7 +112,7 @@ function DegreeCard(props) {
             </h3>
           </div>
         </div>
-        <div classname="body-content">
+        <div className="body-content">
           {degree.descriptions.map((sentence) => {
             return (
               <p className="content-list" style={{ color: theme.text }}>

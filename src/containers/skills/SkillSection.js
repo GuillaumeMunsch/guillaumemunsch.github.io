@@ -1,8 +1,8 @@
 import React from "react";
 import "./Skills.css";
+import { Fade } from "react-reveal";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
-import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
@@ -12,11 +12,11 @@ import TeacherImg from "./TeacherImg";
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
+  if (props.fileName === "FullStackImg")
     return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
+  if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  else if (props.fileName === "TeacherImg")
+  if (props.fileName === "TeacherImg")
     return <TeacherImg theme={props.theme} />;
   // return <DesignImg theme={props.theme} />;
 }
@@ -61,7 +61,7 @@ const renderText = (skill, theme, opts) => (
 );
 
 function SkillSection(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <div>
       {skills.data.map((skill, index) => {
@@ -72,14 +72,13 @@ function SkillSection(props) {
               {renderText(skill, theme, { right: true })}
             </div>
           );
-        } else {
-          return (
-            <div className="skills-main-div">
-              {renderText(skill, theme, { left: true })}
-              {renderImg(skill, theme, { right: true })}
-            </div>
-          );
         }
+        return (
+          <div className="skills-main-div">
+            {renderText(skill, theme, { left: true })}
+            {renderImg(skill, theme, { right: true })}
+          </div>
+        );
       })}
     </div>
   );

@@ -12,14 +12,14 @@ export default function Contact() {
           <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
           <div className="contact-text-div">
-            <a className="contact-detail" href={"tel:" + contactInfo.number}>
+            <a className="contact-detail" href={`tel:${contactInfo.number}`}>
               {contactInfo.number}
             </a>
             <br />
             <br />
             <a
               className="contact-detail-email"
-              href={"mailto:" + contactInfo.email_address}
+              href={`mailto:${contactInfo.email_address}`}
             >
               {contactInfo.email_address}
             </a>
@@ -29,10 +29,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-image-div">
-          <img
-            alt=""
-            src={require("../../assests/images/contactMail.png")}
-          ></img>
+          <img alt="" src={require("../../assests/images/contactMail.png")} />
         </div>
       </div>
     </div>

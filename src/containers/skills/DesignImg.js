@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function DesignImg(props) {
-  const theme = props.theme;
+  const { theme } = props;
   return (
     <svg
       id="1c51936f-ad83-4493-a1e8-5a7ca1846cda"

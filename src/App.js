@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
+import { CursorProvider } from "react-cursor-custom";
+import ReactGA from "react-ga";
+import Main from "./containers/Main";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
 
 function App() {
   useEffect(() => {

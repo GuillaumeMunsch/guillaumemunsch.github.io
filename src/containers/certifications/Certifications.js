@@ -5,7 +5,7 @@ import { certifications } from "../../portfolio";
 import CertificationCard from "../../components/certificationCard/CertificationCard";
 
 function Certifications(props) {
-  const theme = props.theme;
+  const { theme } = props;
   if (
     !certifications.certifications ||
     certifications.certifications?.length === 0

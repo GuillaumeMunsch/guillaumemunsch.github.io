@@ -6,11 +6,11 @@ import { style } from "glamor";
 
 const ProjectButtons = (props) => {
   const openInNewTab = (url) => {
-    var win = window.open(url, "_blank");
+    const win = window.open(url, "_blank");
     win.focus();
   };
 
-  const theme = props.theme;
+  const { theme } = props;
   const history = useHistory();
   console.log("Proops", props);
 

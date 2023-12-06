@@ -5,7 +5,7 @@ import { Accordion, Panel } from "baseui/accordion";
 import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
 
 function ExperienceAccordion(props) {
-  const theme = props.theme;
+  const { theme } = props;
 
   return (
     <div className="experience-accord">
@@ -15,10 +15,10 @@ function ExperienceAccordion(props) {
             return (
               <Panel
                 className="accord-panel"
-                title={section["title"]}
-                key={section["title"]}
+                title={section.title}
+                key={section.title}
               >
-                {section["experiences"].map((experience) => {
+                {section.experiences.map((experience) => {
                   return (
                     <ExperienceCard experience={experience} theme={theme} />
                   );

@@ -4,8 +4,8 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 function CertificationCard(props) {
-  const certificate = props.certificate;
-  const theme = props.theme;
+  const { certificate } = props;
+  const { theme } = props;
   const styles = style({
     boxShadow: `0px 2px 5px ${certificate.color_code}`,
     border: `1px solid ${certificate.color_code}`,
@@ -23,7 +23,7 @@ function CertificationCard(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="content-overlay"></div>
+            <div className="content-overlay" />
             <div
               className="cert-header"
               style={{ backgroundColor: certificate.color_code }}

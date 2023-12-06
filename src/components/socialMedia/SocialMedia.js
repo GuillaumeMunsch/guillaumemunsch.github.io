@@ -12,8 +12,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
-          <span></span>
+          <i className="fab fa-github" />
+          <span />
         </a>
       )}
       {socialMediaLinks.linkedin && (
@@ -23,8 +23,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
+          <i className="fab fa-linkedin-in" />
+          <span />
         </a>
       )}
       {socialMediaLinks.gmail && (
@@ -34,8 +34,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google"></i>
-          <span></span>
+          <i className="fab fa-google" />
+          <span />
         </a>
       )}
       {socialMediaLinks.twitter && (
@@ -45,8 +45,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-twitter"></i>
-          <span></span>
+          <i className="fab fa-twitter" />
+          <span />
         </a>
       )}
       {socialMediaLinks.instagram && (
@@ -56,8 +56,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-instagram"></i>
-          <span></span>
+          <i className="fab fa-instagram" />
+          <span />
         </a>
       )}
       {socialMediaLinks.stackoverflow && (
@@ -67,8 +67,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-stack-overflow"></i>
-          <span></span>
+          <i className="fab fa-stack-overflow" />
+          <span />
         </a>
       )}
       {socialMediaLinks.spotify && (
@@ -78,8 +78,8 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-spotify"></i>
-          <span></span>
+          <i className="fab fa-spotify" />
+          <span />
         </a>
       )}
     </div>
