@@ -356,11 +356,22 @@ const experience = {
       title: "Jobs",
       experiences: [
         {
+          title: "Software Engineer",
+          company: "Ovrsea",
+          company_url: "https://www.ovrsea.com/",
+          logo_path: "shawbeLogo.png",
+          duration: "May 2022 - Current",
+          location: "Full remote for Paris",
+          description:
+            "Creation of a fully functional and production ready SaaS called CheckQ with a serverless backend (Firebase), a mobile app (In React Native, « CheckQ » on the stores) and two frontends, one for the businesses subscribing to the product and one administration panel (both done in React)",
+          color: "#2962FF",
+        },
+        {
           title: "CTO",
           company: "Shawbe",
           company_url: "https://shawbe.com/",
           logo_path: "shawbeLogo.png",
-          duration: "Aug 2020 - Current",
+          duration: "Aug 2020 - Dec 2021",
           location: "Luxembourg City, Luxembourg",
           description:
             "Creation of a fully functional and production ready SaaS called CheckQ with a serverless backend (Firebase), a mobile app (In React Native, « CheckQ » on the stores) and two frontends, one for the businesses subscribing to the product and one administration panel (both done in React)",
@@ -371,7 +382,7 @@ const experience = {
           company: "EPITECH",
           company_url: "https://www.epitech.eu/",
           logo_path: "epitechLogo.png",
-          duration: "Oct 2020 - Current",
+          duration: "Oct 2020 - May 2021",
           location: "Remotely",
           description:
             "Teaching a React Native module to 4th year students. Tech presentation, workshops, follow-ups and assignment grading",
