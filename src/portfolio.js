@@ -116,13 +116,6 @@ const skills = {
           },
         },
         {
-          skillName: "Redux Saga",
-          fontAwesomeClassname: "simple-icons:reduxsaga",
-          style: {
-            color: "#999999",
-          },
-        },
-        {
           skillName: "React Router",
           fontAwesomeClassname: "simple-icons:reactrouter",
           style: {
