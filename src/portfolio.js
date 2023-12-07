@@ -15,7 +15,8 @@ const greeting = {
   logo_name: "guillaume",
   nickname: "GuillaumeMunsch",
   full_name: "Guillaume Munsch",
-  subTitle: "Full Stack Developer, JavaScript Enthusiast and music lover.",
+  subTitle:
+    "Full Stack Developer, JavaScript Enthusiast and music lover. Currently specialized in React",
   resumeLink: "https://guillaumemunsch.github.io/public/CV.pdf",
   mail: "mailto:munschperso@gmail.com",
 };
@@ -530,6 +531,11 @@ const projects = {
           label: "View code",
           link: "https://github.com/GuillaumeMunsch/js-kata-game-of-life",
         },
+        {
+          label: "Try it out",
+          link:
+            "https://guillaumemunsch.github.io/js-kata-game-of-life/index.html",
+        },
       ],
     },
     {
@@ -844,11 +850,11 @@ const projects = {
           label: "View code",
           link: "https://github.com/GuillaumeMunsch/react-minesweeper",
         },
-        // {
-        //   label: "Try it out",
-        //   link:
-        //     "https://guillaumemunsch.github.io/projects/react-minesweeper/index.html",
-        // },
+        {
+          label: "Try it out",
+          link:
+            "https://guillaumemunsch.github.io/react-minesweeper/index.html",
+        },
       ],
     },
     {
@@ -872,16 +878,16 @@ const projects = {
           label: "View code",
           link: "https://github.com/GuillaumeMunsch/react-game-of-life",
         },
-        // {
-        //   label: "Try it out",
-        //   link:
-        //     "https://guillaumemunsch.github.io/projects/react-game-of-life/index.html",
-        // },
+        {
+          label: "Try it out",
+          link:
+            "https://guillaumemunsch.github.io/react-game-of-life/index.html",
+        },
       ],
     },
     {
       name: "Hacker News",
-      url: "https://github.com/GuillaumeMunsch/react-minesweeper",
+      url: "https://github.com/GuillaumeMunsch/my-hacker-news",
       description: ({ theme }) =>
         "A classical Hacker News Reader mobile app for both iOS and Android. Made to try Expo and NativeBase",
       languages: [
