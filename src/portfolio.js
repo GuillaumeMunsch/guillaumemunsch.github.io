@@ -16,7 +16,7 @@ const greeting = {
   nickname: "GuillaumeMunsch",
   full_name: "Guillaume Munsch",
   subTitle:
-    "Full Stack Developer, JavaScript Enthusiast and music lover. Currently specialized in React",
+    "Full Stack Developer, JavaScript Enthusiast, climber and music lover. Currently specialized in React",
   resumeLink: "https://guillaumemunsch.github.io/public/CV.pdf",
   mail: "mailto:munschperso@gmail.com",
 };
