@@ -45,26 +45,53 @@ const skills = {
         "⚡ Using Firebase's tools to build serverless backends",
       ],
       softwareSkills: [
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#E34F26",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#1572B6",
+            color: "#2F73BF",
           },
         },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            backgroundColor: "#FFFFFF",
             color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "React Hook Form",
+          fontAwesomeClassname: "simple-icons:reacthookform",
+          style: {
+            color: "#E4568C",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "simple-icons:graphql",
+          style: {
+            color: "#DD34A6",
           },
         },
         {
@@ -74,13 +101,7 @@ const skills = {
             color: "#FFCA28",
           },
         },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
+
         {
           skillName: "Redux",
           fontAwesomeClassname: "simple-icons:redux",
@@ -111,7 +132,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
             color: "#339933",
           },
