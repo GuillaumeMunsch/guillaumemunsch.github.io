@@ -31,6 +31,8 @@
 
 I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
 
+For the `project-bundles` to work, you **HAVE TO** replace the root imports in your `index.html` (like `href="/favicon.png"`) with a dot before to make it relative -> `href="./favicon.png"`
+
 # References
 
 Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio

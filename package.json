@@ -4,10 +4,11 @@
   "version": "1.2.2",
   "homepage": "https://guillaumemunsch.github.io",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts build; npm run project-bundles",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
+    "project-bundles": "cp -r project-bundles/* ./build/",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
