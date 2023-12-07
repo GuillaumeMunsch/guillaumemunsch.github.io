@@ -95,13 +95,19 @@ const skills = {
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
-            color: "#FFCA28",
+            color: "#339933",
           },
         },
-
+        {
+          skillName: "Jest",
+          fontAwesomeClassname: "simple-icons:jest",
+          style: {
+            color: "#C21325",
+          },
+        },
         {
           skillName: "Redux",
           fontAwesomeClassname: "simple-icons:redux",
@@ -131,10 +137,10 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#339933",
+            color: "#FFCA28",
           },
         },
         {
