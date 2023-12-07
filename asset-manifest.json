@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c36a431.css",
-    "main.js": "/static/js/main.ccae3fcd.js",
+    "main.js": "/static/js/main.6df0a097.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
     "static/media/csulb.png": "/static/media/csulb.890ff80279d037b850ff.png",
@@ -48,10 +48,10 @@
     "static/media/buld.jpg": "/static/media/buld.55444b9789a64f32e2e5.jpg",
     "index.html": "/index.html",
     "main.0c36a431.css.map": "/static/css/main.0c36a431.css.map",
-    "main.ccae3fcd.js.map": "/static/js/main.ccae3fcd.js.map"
+    "main.6df0a097.js.map": "/static/js/main.6df0a097.js.map"
   },
   "entrypoints": [
     "static/css/main.0c36a431.css",
-    "static/js/main.ccae3fcd.js"
+    "static/js/main.6df0a097.js"
   ]
 }
