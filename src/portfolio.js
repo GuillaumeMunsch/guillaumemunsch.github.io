@@ -507,6 +507,31 @@ const projects = {
   data: [
     {
       name: "2048",
+      url: "https://github.com/GuillaumeMunsch/dart-cricket-score-calculator",
+      description: ({ theme }) => <>A 2048 game developed for fun in TDD.</>,
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+      ],
+      buttons: [
+        {
+          label: "View code",
+          link: "https://github.com/GuillaumeMunsch/dart-cricket-score-calculator",
+        },
+        {
+          label: "Try it out",
+          link: "https://guillaumemunsch.github.io/darts-cricket/index.html",
+        },
+      ],
+    },
+    {
+      name: "2048",
       url: "https://github.com/GuillaumeMunsch/2048",
       description: ({ theme }) => <>A 2048 game developed for fun in TDD.</>,
       languages: [
@@ -529,8 +554,7 @@ const projects = {
           link: "https://guillaumemunsch.github.io/2048/index.html",
         },
       ],
-    },
-    {
+    },    {
       name: "Redux Basis",
       url: "https://github.com/GuillaumeMunsch/redux-basis",
       description: ({ theme }) => (
