@@ -46,8 +46,12 @@ export const experiences: Experience[] = [
     company: 'Zefir',
     url: 'https://www.zefir.fr',
     location: 'Paris, remote',
-    summary: ['Zefir is the 1st collective real estate sales platform.'],
-    tags: ['TypeScript', 'NestJS', 'GraphQL', 'PostgreSQL', 'React', 'React Native'],
+    summary: [
+      'Full-stack engineer on the whole product: the GraphQL API in NestJS, the React web apps and the React Native app.',
+      'Built the sync of our listings with the real estate portals and its daily checks, visit booking features, and AI features with OpenAI.',
+      'Set up part of the production tooling: Grafana dashboards, alerts, and an AI routine that analyses production incidents.',
+    ],
+    tags: ['TypeScript', 'Node', 'React', 'GraphQL'],
   },
   {
     start: 'May 2022',
@@ -57,10 +61,10 @@ export const experiences: Experience[] = [
     url: 'https://www.ovrsea.com',
     location: 'Paris, remote',
     summary: [
-      'OVRSEA is a next-generation multimodal freight forwarder committed to simplifying & optimizing international freight management through technology.',
-      'Built features for 2 internal tools: dashboards, email customization, forms and automation. Worked on an internal design system based on Emotion. Applied TDD and DDD.',
+      'Built features for 2 internal tools: dashboards, email customization, forms and automation.',
+      'Worked on the internal design system, based on Emotion. Applied TDD and DDD to keep the code reliable and maintainable.',
     ],
-    tags: ['React', 'React Hook Form', 'TypeScript', 'Node.js', 'GraphQL', 'Emotion'],
+    tags: ['TypeScript', 'Node', 'React', 'GraphQL'],
   },
   {
     start: 'Aug 2020',
@@ -69,8 +73,8 @@ export const experiences: Experience[] = [
     company: 'SHAWBE',
     location: 'Luxembourg',
     summary: [
-      'We believe the future of dining will all be done in real time giving more freedom, power and efficiency to food lovers to eat at the best spots.',
-      'Built CheckQ, a production SaaS: a Firebase serverless backend, a React Native app on the stores, and two React frontends, one for businesses and one admin panel.',
+      'Built CheckQ from scratch and took it to production: a SaaS that helps businesses manage their customer flow.',
+      'Shipped a Firebase serverless backend, a React Native app on the stores, and two React frontends: one for subscribing businesses, one admin panel.',
     ],
     tags: ['React', 'React Native', 'Redux', 'TypeScript', 'Firebase', 'Stripe'],
   },
@@ -81,7 +85,7 @@ export const experiences: Experience[] = [
     company: 'ZAP s.a.',
     location: 'Luxembourg',
     summary: [
-      'Built the React Native app of Squareboard, a digital workplace for companies, and worked on its React web app.',
+      'Built the React Native app of Squareboard, the digital workplace made by ZAP, and worked on its React web app.',
     ],
     tags: ['TypeScript', 'Node.js', 'React', 'React Native', 'Redux'],
   },
