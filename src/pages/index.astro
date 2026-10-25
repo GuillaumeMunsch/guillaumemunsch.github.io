@@ -5,14 +5,20 @@ import ArrowIcon from '@tabler/icons/outline/arrow-up-right.svg';
 import GithubIcon from '@tabler/icons/outline/brand-github.svg';
 import LinkedinIcon from '@tabler/icons/outline/brand-linkedin.svg';
 import MailIcon from '@tabler/icons/outline/mail.svg';
+import FlagDe from 'flag-icons/flags/4x3/de.svg';
+import FlagFr from 'flag-icons/flags/4x3/fr.svg';
+import FlagGb from 'flag-icons/flags/4x3/gb.svg';
+import FlagIt from 'flag-icons/flags/4x3/it.svg';
 import ProjectThumb from '../components/ProjectThumb.astro';
-import { about, education, experiences, languages, profile, projects } from '../content';
+import { about, education, experiences, type LanguageFlag, languages, profile, projects } from '../content';
 
 const sections = [
   { id: 'cv', label: 'CV' },
   { id: 'projects', label: 'Projects' },
   { id: 'about', label: 'About' },
 ];
+
+const flags: Record<LanguageFlag, typeof FlagFr> = { fr: FlagFr, gb: FlagGb, de: FlagDe, it: FlagIt };
 ---
 
 <!doctype html>
@@ -132,11 +138,17 @@ const sections = [
           <h3 class="sub-title">Languages</h3>
           <ul class="languages">
             {
-              languages.map((language) => (
-                <li>
-                  <span class="strong">{language.name}</span> {language.level}
-                </li>
-              ))
+              languages.map((language) => {
+                const Flag = flags[language.flag];
+                return (
+                  <li class="language">
+                    <Flag class="flag" width={20} height={15} aria-hidden="true" />
+                    <span>
+                      <span class="strong">{language.name}</span> {language.level}
+                    </span>
+                  </li>
+                );
+              })
             }
           </ul>
         </section>
@@ -430,6 +442,17 @@ const sections = [
     display: flex;
     flex-wrap: wrap;
     gap: 8px 32px;
+  }
+
+  .language {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .flag {
+    flex: none;
+    border-radius: 2px;
   }
 
   .project .thumb {

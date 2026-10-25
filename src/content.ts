@@ -115,10 +115,19 @@ export const education: Education[] = [
   },
 ];
 
-export const languages = [
-  { name: 'French', level: 'Native' },
-  { name: 'English', level: 'Fluent' },
-  { name: 'German', level: 'C1' },
+export type LanguageFlag = 'fr' | 'gb' | 'de' | 'it';
+
+export type Language = {
+  name: string;
+  level: string;
+  flag: LanguageFlag;
+};
+
+export const languages: Language[] = [
+  { name: 'French', level: 'Native', flag: 'fr' },
+  { name: 'English', level: 'Fluent', flag: 'gb' },
+  { name: 'German', level: 'C1', flag: 'de' },
+  { name: 'Italian', level: 'C1', flag: 'it' },
 ];
 
 export const projects: Project[] = [
