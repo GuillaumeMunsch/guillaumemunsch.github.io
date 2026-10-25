@@ -73,10 +73,10 @@ export const experiences: Experience[] = [
     company: 'SHAWBE',
     location: 'Luxembourg',
     summary: [
-      'Built CheckQ from scratch and took it to production: a SaaS that helps businesses manage their customer flow.',
-      'Shipped a Firebase serverless backend, a React Native app on the stores, and two React frontends: one for subscribing businesses, one admin panel.',
+      'Built CheckQ from scratch and took it to production: an app to get a table at the best restaurants anytime, without booking ahead.',
+      'Shipped a Firebase serverless backend, a React Native app on the stores, and two React frontends: one for restaurants, one admin panel.',
     ],
-    tags: ['React', 'React Native', 'Redux', 'TypeScript', 'Firebase', 'Stripe'],
+    tags: ['TypeScript', 'Node', 'React'],
   },
   {
     start: 'Sep 2016',
