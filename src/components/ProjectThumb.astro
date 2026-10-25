@@ -1,0 +1,63 @@
+---
+import type { ProjectThumb } from '../content';
+
+type Props = { type: ProjectThumb };
+
+const { type } = Astro.props;
+
+type Cell = { x: number; y: number; size: number; fill: string };
+
+const grid = (
+  cols: number,
+  rows: number,
+  size: number,
+  gap: number,
+  fill: (col: number, row: number) => string,
+): Cell[] => {
+  const left = (120 - (cols * size + (cols - 1) * gap)) / 2;
+  const top = (72 - (rows * size + (rows - 1) * gap)) / 2;
+  return Array.from({ length: cols * rows }, (_, i) => {
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+    return { x: left + col * (size + gap), y: top + row * (size + gap), size, fill: fill(col, row) };
+  });
+};
+
+const revealed = new Set(['0,0', '1,0', '2,0', '0,1', '1,1', '2,1', '0,2', '1,2', '0,3', '1,3', '2,3', '3,3']);
+const tiles2048 = ['#334155', '#eee4da', '#334155', '#ede0c8', '#f2b179', '#eee4da', '#f59563', '#f67c5f', '#edcf72'];
+const alive = new Set(['1,0', '2,1', '0,2', '1,2', '2,2', '6,2', '7,2', '8,2']);
+
+const cells: Cell[] =
+  type === 'minesweeper'
+    ? grid(7, 4, 13, 3, (col, row) =>
+        col === 4 && row === 1 ? '#f87171' : revealed.has(`${col},${row}`) ? '#475569' : '#1e293b',
+      )
+    : type === '2048'
+      ? grid(3, 3, 18, 4, (col, row) => tiles2048[row * 3 + col])
+      : type === 'life'
+        ? grid(10, 6, 8, 2, (col, row) => (alive.has(`${col},${row}`) ? '#5eead4' : '#1e293b'))
+        : [];
+---
+
+<svg viewBox="0 0 120 72" aria-hidden="true">
+  {cells.map((cell) => <rect x={cell.x} y={cell.y} width={cell.size} height={cell.size} rx="2" fill={cell.fill} />)}
+  {
+    type === 'darts' && (
+      <g>
+        <circle cx="60" cy="36" r="30" fill="#1e293b" />
+        <circle cx="60" cy="36" r="23" fill="#f87171" />
+        <circle cx="60" cy="36" r="16" fill="#cbd5e1" />
+        <circle cx="60" cy="36" r="8" fill="#34d399" />
+        <circle cx="60" cy="36" r="3" fill="#f87171" />
+      </g>
+    )
+  }
+</svg>
+
+<style>
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>

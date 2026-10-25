@@ -1,39 +1,28 @@
-# Non opPortfolio
+# guillaumemunsch.github.io
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/hriship/deploys)
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FHrishi1999%2FopPortfolio)
+My personal site: CV first, then small projects and a few words about me.
 
-![opPortfolio](/images/portfolio.gif)
+**Live:** https://guillaumemunsch.github.io
 
-### A clean portfolio template. (Readme will be updated soon)
+## Content
 
-# Sections
+All the text lives in `src/content.ts`: profile, experience, education, languages, projects and about.
 
-- Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+The games under `public/` (`2048`, `darts-cricket`, `react-game-of-life`, `js-kata-game-of-life`, `react-minesweeper`) are built bundles, served as they are.
 
-# How To Use
+## Run locally
 
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
+Needs Node 22 and pnpm.
 
-# How Do I Customize
+```bash
+pnpm install
+pnpm dev
+```
 
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
-- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
+```bash
+pnpm build
+```
 
-# How to Deploy
+## Deploy
 
-I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
-
-For the `project-bundles` to work, you **HAVE TO** replace the root imports in your `index.html` (like `href="/favicon.png"`) with a dot before to make it relative -> `href="./favicon.png"`
-
-# References
-
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+Every push to `main` type-checks, builds, and deploys to GitHub Pages (`.github/workflows/deploy.yml`).
